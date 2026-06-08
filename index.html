@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Card Match Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>🃏 Match It!</h1>
+
+    <div class="scoreboard">
+        <p>Pairs: <span id="score">0</span></p>
+        <p>Moves: <span id="moves">0</span></p>
+    </div>
+
+    <div id="winBanner" class="win-banner">
+        <h2>🏆 You matched them all!</h2>
+    </div>
+
+    <div id="grid" class="grid"></div>
+
+    <button onclick="initGame()">New Game</button>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

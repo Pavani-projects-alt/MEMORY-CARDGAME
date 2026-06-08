@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #1a1a2e;
+    color: white;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 90px);
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card {
+    width: 90px;
+    height: 120px;
+    background: #0f3460;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flipped {
+    background: white;
+    color: black;
+}
+
+.matched {
+    background: lightgreen;
+    color: black;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+.win-banner {
+    display: none;
+}
+
+.win-banner.show {
+    display: block;
+}

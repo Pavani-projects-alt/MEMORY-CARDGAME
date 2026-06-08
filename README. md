@@ -1,0 +1,58 @@
+Memory Card Match Game
+
+About the Project
+
+Memory Card Match Game is a simple web-based game built using HTML, CSS, and JavaScript. The player flips two cards at a time and tries to find matching pairs. The goal is to match all card pairs in the fewest moves and shortest time possible.
+
+Features
+
+- Flip cards to reveal emojis
+- Match identical pairs
+- Move counter
+- Timer
+- Restart button
+- Win message when all pairs are matched
+- Responsive and beginner-friendly design
+
+Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+
+How to Play
+
+1. Click on a card to reveal the emoji.
+2. Click on another card to find its matching pair.
+3. If the cards match, they remain visible.
+4. If they do not match, they flip back.
+5. Continue until all pairs are matched.
+6. Try to complete the game in the fewest moves and shortest time.
+
+Project Structure
+
+Memory-Card-Game
+
+├── index.html
+
+├── style.css
+
+├── script.js
+
+└── README.md
+
+Future Improvements
+
+- Multiple difficulty levels
+- Sound effects
+- Card flip animations
+- Leaderboard and high scores
+- Different card themes
+
+Author
+
+Pavani
+
+GitHub Repository
+
+Add your GitHub repository link here.
